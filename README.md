@@ -120,6 +120,7 @@ jobs:
           filter_mode: nofilter # Check all files, not just the diff
           fail_on_error: true # Fail action if errors are found
           flags: -tee # Add debug flag to reviewdog
+          tfsec_version: "v0.0.0" # Optional
           tfsec_flags: "" # Optional
 ```
 
